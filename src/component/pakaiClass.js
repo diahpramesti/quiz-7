@@ -21,10 +21,12 @@ class App extends React.Component {
     
     render() {
         return (
-            <div className="App" style={{ marginBottom: '10', width: '500px', margin: '0 auto', textAlign: 'center'}}>
+            <div className="App" style={{ marginBottom: '10px', width: '500px', margin: '0 auto', textAlign: 'center'}}>
                 <h1>Realtime CLOCK Pakai Class</h1>
                 <hr />
                 <h1>{this.state.date.toLocaleTimeString()}</h1>
+                <br></br>
+				<br></br>
             </div>
         )
     }
