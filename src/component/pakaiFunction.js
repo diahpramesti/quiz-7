@@ -11,7 +11,7 @@ const PakaiFunction = () => {
     setInterval(() => tick(), 1000)
 
     return(
-        <div className="App" style={{ marginTop: '50', width: '500px', margin: '0 auto', textAlign: 'center'}}>
+        <div className="App" style={{ marginTop: '200px', width: '500px', margin: '0 auto', textAlign: 'center'}}>
             <h1>Realtime CLOCK Pakai Function</h1>
             <hr />
             <h1>{date.toLocaleTimeString()}</h1>
